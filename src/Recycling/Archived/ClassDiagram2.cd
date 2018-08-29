@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MechBuilder.Base.BaseArmor">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAABCAAAAAAAAAIAAAAAACAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Base.BaseMecha" Collapsed="true">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseMecha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Collections.MovementCollection" Collapsed="true">
+    <Position X="41.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Lookup" Collapsed="true">
+    <Position X="39.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lookup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Mecha">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Mecha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.BaseServo">
+    <Position X="30.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAQAACAAABAAAAAIAAAAAAAAAEAAAAAAAAAAAABA=</HashCode>
+      <FileName>TorsoServo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.BaseAmmo" Collapsed="true">
+    <Position X="19" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BaseAmmo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Src.Base.BaseWeapon">
+    <Position X="10" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="MechBuilder.Src.Base.BaseWeapon.WeaponTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Src\BaseWeapon.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MechBuilder.Src.Base.BaseWeapon.WeaponModifierTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Src\BaseWeapon.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MechBuilder.Src.Base.BaseWeapon.WeaponOptions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Src\BaseWeapon.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAGAAABAAAACAAAAAACAJAAAABAEwAAABCkAA=</HashCode>
+      <FileName>BaseWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Src.Systems.BeamWeapon">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAARAIAFAIAACEAAAAAAAIAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BeamWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Src.Systems.ProjectileWeapon">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAEAAAAQAAAFAAAACAAAAABAAIQAAAAgAgEAAAAAAA=</HashCode>
+      <FileName>ProjectileWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Src.Systems.ProjectileAmmo">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="MechBuilder.Src.Systems.ProjectileAmmo.AmmoOptions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Src\ProjectileWeaponAmmo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAUAAACAAABAAAAQCAAAAAAAAAAAgAAAAAAABAAAA=</HashCode>
+      <FileName>ProjectileWeaponAmmo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.BaseRangedWeapon">
+    <Position X="7.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseRangedWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.BaseMeleeWeapon">
+    <Position X="13.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAABAAAACAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BaseMeleeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.ArmorPlate">
+    <Position X="1" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArmorPlate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.MissileSystem">
+    <Position X="10" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAAAFAAAACEAAAAAAAIAAQAAAAgAAAAAAAA=</HashCode>
+      <FileName>MissileSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.MeleeWeapon">
+    <Position X="14.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAASAAABAAAACAAAAAAAAIAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>MeleeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.EnergyMeleeWeapon">
+    <Position X="12.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAASAAABAABACAAAAAAAAIAAAAAAAgAAAABAAA=</HashCode>
+      <FileName>EnergyMeleeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Missile">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Wing" Collapsed="true">
+    <Position X="25.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Arm" Collapsed="true">
+    <Position X="28" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Arm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.BaseSystem" Collapsed="true">
+    <Position X="19" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BaseSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.EnergyClip">
+    <Position X="21.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnergyClip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Head" Collapsed="true">
+    <Position X="34.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Head.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Leg" Collapsed="true">
+    <Position X="37" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Leg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Pod" Collapsed="true">
+    <Position X="23.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Tail" Collapsed="true">
+    <Position X="30.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBuilder.Torso" Collapsed="true">
+    <Position X="32.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Torso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
