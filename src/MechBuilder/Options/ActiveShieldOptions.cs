@@ -9,7 +9,7 @@ namespace MechBuilder
     /// 
     /// </summary>
     [Flags]
-    public enum MissileOptions : int
+    public enum ActiveShieldOptions
     {
     }
 }

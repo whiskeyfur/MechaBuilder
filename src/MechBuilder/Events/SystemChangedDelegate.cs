@@ -5,11 +5,5 @@ using System.Text;
 
 namespace MechBuilder
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    [Flags]
-    public enum MissileOptions : int
-    {
-    }
+    public delegate void SystemChangedDelegate(ISystem System, string Stat);
 }

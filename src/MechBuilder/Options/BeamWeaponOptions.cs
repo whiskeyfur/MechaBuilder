@@ -8,6 +8,7 @@ namespace MechBuilder
     /// <summary>
     /// 
     /// </summary>
+    [Flags]
     public enum BeamWeaponOptions
     {
     }

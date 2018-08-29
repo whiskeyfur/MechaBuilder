@@ -1,6 +1,9 @@
 ﻿
 namespace MechBuilder {
-    interface IMecha : ISystem {
+    /// <summary>
+    /// 
+    /// </summary>
+    public interface IMecha : ISystem {
         /// <summary>
         /// 
         /// </summary>
@@ -10,7 +13,5 @@ namespace MechBuilder {
         /// 
         /// </summary>
         string Serial { get; set; }
-
-
     }
 }

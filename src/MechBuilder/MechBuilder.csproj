@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ICargo.cs" />
+    <Compile Include="Options\ICargoOptions.cs" />
+    <Compile Include="Interfaces\IHangar.cs" />
+    <Compile Include="Interfaces\ILauncher.cs" />
+    <Compile Include="Options\ActiveShieldOptions.cs" />
+    <Compile Include="Options\ArmorOptions.cs" />
     <Compile Include="Options\BeamWeaponOptions.cs" />
     <Compile Include="Options\EnergyMeleeWeaponOptions.cs" />
     <Compile Include="Interfaces\IActiveShield.cs" />
@@ -95,18 +101,17 @@
     <Compile Include="Forms\Servobuilder.Designer.cs">
       <DependentUpon>Servobuilder.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interfaces\IHasCost.cs" />
-    <Compile Include="Interfaces\IHasMultiplier.cs" />
-    <Compile Include="Interfaces\IHasVolume.cs" />
-    <Compile Include="Interfaces\IHasWeight.cs" />
     <Compile Include="Interfaces\IMecha.cs" />
     <Compile Include="Lookup.cs" />
     <Compile Include="Options\MagazineOptions.cs" />
     <Compile Include="Options\MeleeWeaponOptions.cs" />
     <Compile Include="Options\MissileOptions.cs" />
+    <Compile Include="Options\PassiveShieldOptions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Options\ProjectileWeaponOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Options\ReactiveShieldOptions.cs" />
+    <Compile Include="Events\SystemChangedDelegate.cs" />
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

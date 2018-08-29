@@ -7,6 +7,11 @@ namespace MechBuilder {
     /// <summary>
     /// 
     /// </summary>
-    public interface IPassiveShield : IShield {
+    public interface IPassiveShield : IShield
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        PassiveShieldOptions Options { get; set; }
     }
 }
