@@ -17,11 +17,11 @@ namespace MechBuilder {
         /// <summary>
         /// 
         /// </summary>
-        ISystemCollection Systems { get; set; }
+        ISystemCollection Contains { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        double Cost { get; set; }
+        double Cost { get; }
         /// <summary>
         /// 
         /// </summary>

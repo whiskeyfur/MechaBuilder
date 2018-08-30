@@ -4,50 +4,20 @@
         <name>MechBuilder</name>
     </assembly>
     <members>
+        <member name="T:MechBuilder.IHardpoint">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:MechBuilder.ICargo">
             <summary>
             Dedicated cargo space that does NOT enable use of the modules stored here.
             However they're stored at a more efficient rate
             </summary>
         </member>
-        <member name="P:MechBuilder.ICargo.options">
+        <member name="P:MechBuilder.ICargo.Efficiency">
             <summary>
             
-            </summary>
-        </member>
-        <member name="T:MechBuilder.ICargoOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:MechBuilder.ICargoOptions.Standard">
-            <summary>
-            Everything is just left on the floor. 
-            No change to stored systems.
-            </summary>
-        </member>
-        <member name="F:MechBuilder.ICargoOptions.Efficient">
-            <summary>
-            Systems are stored on shelves and overhead. 
-            1/2th of the space required for systems stored here
-            </summary>
-        </member>
-        <member name="F:MechBuilder.ICargoOptions.Compact">
-            <summary>
-            Shelves, overhead hooks, storage and retrieval system. 
-            1/3th of the space required for systems stored here
-            </summary>
-        </member>
-        <member name="F:MechBuilder.ICargoOptions.BulkStorage">
-            <summary>
-            Barely room to walk, conveyor belts and waldos to retrieve gear.
-            1/4th of the space required for systems stored here
-            </summary>
-        </member>
-        <member name="F:MechBuilder.ICargoOptions.PackedFull">
-            <summary>
-            To heck with a storage system, this is a bulk container. No retrieval possible (normally).
-            1/5th of the space required for systems stored here
             </summary>
         </member>
         <member name="T:MechBuilder.IHangar">
@@ -81,11 +51,6 @@
             </summary>
         </member>
         <member name="T:MechBuilder.ActiveShieldOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:MechBuilder.ArmorOptions">
             <summary>
             
             </summary>
@@ -130,7 +95,12 @@
             
             </summary>
         </member>
-        <member name="P:MechBuilder.IArmor.Options">
+        <member name="P:MechBuilder.IArmor.SP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IArmor.Absorption">
             <summary>
             
             </summary>
@@ -315,12 +285,23 @@
             Unspecialized storage, can hold anything, but no efficiency for doing so.
             </summary>
         </member>
+        <member name="M:MechBuilder.IStorage.CanStore(MechBuilder.ISystem)">
+            <summary>
+            Can this storage place store the new System?
+            </summary>
+            <param name="System">Prospective system to store</param>
+        </member>
         <member name="T:MechBuilder.ISystem">
             <summary>
             
             </summary>
         </member>
-        <member name="P:MechBuilder.ISystem.Systems">
+        <member name="E:MechBuilder.ISystem.Changed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.ISystem.Contains">
             <summary>
             
             </summary>
@@ -416,7 +397,7 @@
         </member>
         <member name="P:MechBuilder.IMecha.Name">
             <summary>
-            
+            This is the name of the mecha. Or rather, where it gets stored.
             </summary>
         </member>
         <member name="P:MechBuilder.IMecha.Serial">
@@ -593,6 +574,13 @@
             <summary>
             
             </summary>
+        </member>
+        <member name="T:MechBuilder.SystemChangedDelegate">
+            <summary>
+            
+            </summary>
+            <param name="System"></param>
+            <param name="Stat"></param>
         </member>
         <member name="T:MechBuilder.Properties.Resources">
             <summary>

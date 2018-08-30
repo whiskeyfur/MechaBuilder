@@ -10,6 +10,9 @@ namespace MechBuilder
     /// However they're stored at a more efficient rate
     /// </summary>
     public interface ICargo : IStorage {
+        /// <summary>
+        /// 
+        /// </summary>
         int Efficiency { get; set; }
     }
 }

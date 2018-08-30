@@ -8,5 +8,10 @@ namespace MechBuilder {
     /// Unspecialized storage, can hold anything, but no efficiency for doing so.
     /// </summary>
     public interface IStorage : ISystem {
+        /// <summary>
+        /// Can this storage place store the new System?
+        /// </summary>
+        /// <param name="System">Prospective system to store</param>
+        void CanStore(ISystem System);
     }
 }

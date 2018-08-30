@@ -53,12 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IHardpoint.cs" />
     <Compile Include="Interfaces\ICargo.cs" />
-    <Compile Include="Options\ICargoOptions.cs" />
     <Compile Include="Interfaces\IHangar.cs" />
     <Compile Include="Interfaces\ILauncher.cs" />
     <Compile Include="Options\ActiveShieldOptions.cs" />
-    <Compile Include="Options\ArmorOptions.cs" />
     <Compile Include="Options\BeamWeaponOptions.cs" />
     <Compile Include="Options\EnergyMeleeWeaponOptions.cs" />
     <Compile Include="Interfaces\IActiveShield.cs" />

@@ -15,27 +15,27 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.IArmor">
-    <Position X="50" Y="3" Width="1.5" />
+    <Position X="52.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IArmor.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.IAmmo">
-    <Position X="43.25" Y="3" Width="1.5" />
+    <Position X="45.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IAmmo.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.ISystem">
-    <Position X="25.25" Y="0.5" Width="1.5" />
+    <Position X="26.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAABAAACAAAAAAAAAAAABAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAABAAAABAAACAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Interfaces\ISystem.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Systems" />
+      <Property Name="Contains" />
     </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.IRangedWeapon">
@@ -56,7 +56,7 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.IMecha">
-    <Position X="47.75" Y="3" Width="1.5" />
+    <Position X="50" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IMecha.cs</FileName>
@@ -100,7 +100,7 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.IMissile">
-    <Position X="41" Y="5.25" Width="1.5" />
+    <Position X="43.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Interfaces\IMissile.cs</FileName>
@@ -110,14 +110,14 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.IEnergyClip">
-    <Position X="45.5" Y="5.25" Width="1.5" />
+    <Position X="47.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IEnergyClip.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.IMagazine">
-    <Position X="43.25" Y="5.25" Width="1.5" />
+    <Position X="45.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Interfaces\IMagazine.cs</FileName>
@@ -134,14 +134,14 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.IShield">
-    <Position X="36.5" Y="3" Width="1.5" />
+    <Position X="38.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IShield.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.IActiveShield">
-    <Position X="36.5" Y="5" Width="1.5" />
+    <Position X="38.75" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Interfaces\IActiveShield.cs</FileName>
@@ -151,7 +151,7 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.IPassiveShield">
-    <Position X="34.25" Y="5" Width="1.5" />
+    <Position X="36.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Interfaces\IPassiveShield.cs</FileName>
@@ -161,7 +161,7 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.IReactiveShield">
-    <Position X="38.75" Y="5" Width="1.5" />
+    <Position X="41" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Interfaces\IReactiveShield.cs</FileName>
@@ -171,14 +171,14 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.IStorage">
-    <Position X="29.75" Y="3" Width="1.5" />
+    <Position X="30.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IStorage.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.ISystemCollection">
-    <Position X="22.25" Y="0.75" Width="1.5" />
+    <Position X="23.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAAAAA=</HashCode>
       <FileName>Interfaces\ISystemCollection.cs</FileName>
@@ -234,14 +234,14 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.IHangar">
-    <Position X="32" Y="4.75" Width="1.5" />
+    <Position X="34.25" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Interfaces\IHangar.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.ILauncher">
-    <Position X="29.75" Y="4.75" Width="1.5" />
+    <Position X="32" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ILauncher.cs</FileName>
@@ -251,10 +251,17 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.ICargo">
-    <Position X="27.5" Y="4.75" Width="1.5" />
+    <Position X="29.75" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ICargo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.IHardpoint">
+    <Position X="27.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHardpoint.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="MechBuilder.BeamWeaponOptions">
@@ -272,7 +279,7 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.MagazineOptions">
-    <Position X="43.25" Y="7.25" Width="1.5" />
+    <Position X="45.5" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\MagazineOptions.cs</FileName>
@@ -286,7 +293,7 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.MissileOptions">
-    <Position X="41" Y="7.25" Width="1.5" />
+    <Position X="43.25" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\MissileOptions.cs</FileName>
@@ -300,28 +307,28 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.ReactiveShieldOptions">
-    <Position X="38.75" Y="7" Width="1.5" />
+    <Position X="41" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\ReactiveShieldOptions.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.PassiveShieldOptions">
-    <Position X="34.25" Y="7" Width="1.5" />
+    <Position X="36.5" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\PassiveShieldOptions.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.ActiveShieldOptions">
-    <Position X="36.5" Y="7" Width="1.5" />
+    <Position X="38.75" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\ActiveShieldOptions.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Delegate Name="MechBuilder.SystemChangedDelegate">
-    <Position X="52.5" Y="2.25" Width="1.5" />
+  <Delegate Name="MechBuilder.SystemChangedDelegate" Collapsed="true">
+    <Position X="54.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Events\SystemChangedDelegate.cs</FileName>
