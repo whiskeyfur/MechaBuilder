@@ -7,11 +7,8 @@ namespace MechBuilder {
     /// <summary>
     /// 
     /// </summary>
-    public interface IArmor : ISystem
-    {
-        /// <summary>
-        /// 
-        /// </summary>
-        ArmorOptions Options { get; set; }
+    public interface IArmor : ISystem {
+        int SP { get; set; }
+        int Absorption { get; set; }
     }
 }

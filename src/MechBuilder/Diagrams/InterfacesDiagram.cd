@@ -17,12 +17,9 @@
   <Interface Name="MechBuilder.IArmor">
     <Position X="50" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IArmor.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Options" />
-    </ShowAsAssociation>
   </Interface>
   <Interface Name="MechBuilder.IAmmo">
     <Position X="43.25" Y="3" Width="1.5" />
@@ -256,15 +253,12 @@
   <Interface Name="MechBuilder.ICargo">
     <Position X="27.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ICargo.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="options" />
-    </ShowAsAssociation>
   </Interface>
   <Enum Name="MechBuilder.BeamWeaponOptions">
-    <Position X="20.75" Y="5.5" Width="1.5" />
+    <Position X="20.75" Y="9.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\BeamWeaponOptions.cs</FileName>
@@ -292,7 +286,7 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.MissileOptions">
-    <Position X="41" Y="3.25" Width="1.5" />
+    <Position X="41" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\MissileOptions.cs</FileName>
@@ -303,13 +297,6 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\ProjectileWeaponOptions.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="MechBuilder.ArmorOptions">
-    <Position X="50" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Options\ArmorOptions.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.ReactiveShieldOptions">
@@ -331,13 +318,6 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\ActiveShieldOptions.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="MechBuilder.ICargoOptions">
-    <Position X="27.5" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAIABBAA=</HashCode>
-      <FileName>Options\ICargoOptions.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Delegate Name="MechBuilder.SystemChangedDelegate">

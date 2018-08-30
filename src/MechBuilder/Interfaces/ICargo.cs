@@ -9,11 +9,7 @@ namespace MechBuilder
     /// Dedicated cargo space that does NOT enable use of the modules stored here.
     /// However they're stored at a more efficient rate
     /// </summary>
-    public interface ICargo : IStorage
-    {
-        /// <summary>
-        /// 
-        /// </summary>
-        ICargoOptions options { get; set; }
+    public interface ICargo : IStorage {
+        int Efficiency { get; set; }
     }
 }
