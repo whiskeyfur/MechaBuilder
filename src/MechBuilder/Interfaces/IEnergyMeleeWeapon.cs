@@ -7,11 +7,7 @@ namespace MechBuilder {
     /// <summary>
     /// 
     /// </summary>
-    public interface IEnergyMeleeWeapon : IReachWeapon
-    {
-        /// <summary>
-        /// 
-        /// </summary>
-        EnergyMeleeWeaponOptions Options { get; set; }
+    public interface IEnergyMeleeWeapon : IReachWeapon {
+        List<IEnergyMeleeWeaponOption> Options { get; set; }
     }
 }

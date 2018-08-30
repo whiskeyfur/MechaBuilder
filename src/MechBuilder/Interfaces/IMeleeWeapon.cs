@@ -8,11 +8,7 @@ namespace MechBuilder
     /// <summary>
     /// 
     /// </summary>
-    public interface IMeleeWeapon : IReachWeapon
-    {
-        /// <summary>
-        /// 
-        /// </summary>
-        MeleeWeaponOptions Options { get; set; }
+    public interface IMeleeWeapon : IReachWeapon {
+        List<IMeleeWeaponOption> Options { get; set; }
     }
 }

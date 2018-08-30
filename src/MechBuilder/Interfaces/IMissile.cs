@@ -7,11 +7,7 @@ namespace MechBuilder {
     /// <summary>
     /// 
     /// </summary>
-    public interface IMissile : IAmmo
-    {
-        /// <summary>
-        /// 
-        /// </summary>
-        MissileOptions Options { get; set; }
+    public interface IMissile : IAmmo {
+        List<IMissileOption> Options { get; set; }
     }
 }

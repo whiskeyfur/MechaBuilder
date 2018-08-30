@@ -9,9 +9,5 @@ namespace MechBuilder {
     /// </summary>
     public interface IReactiveShield : IShield
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        ReactiveShieldOptions Options { get; set; }
     }
 }

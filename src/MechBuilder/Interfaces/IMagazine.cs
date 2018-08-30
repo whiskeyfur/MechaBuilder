@@ -7,11 +7,7 @@ namespace MechBuilder {
     /// <summary>
     /// 
     /// </summary>
-    public interface IMagazine : IAmmo
-    {
-        /// <summary>
-        /// 
-        /// </summary>
-        MagazineOptions Options { get; set; }
+    public interface IMagazine : IAmmo {
+        List<IMagazineOption> Options { get; set; }
     }
 }
