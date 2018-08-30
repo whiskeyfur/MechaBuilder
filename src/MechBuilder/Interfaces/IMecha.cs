@@ -5,7 +5,7 @@ namespace MechBuilder {
     /// </summary>
     public interface IMecha : ISystem {
         /// <summary>
-        /// 
+        /// This is the name of the mecha. Or rather, where it gets stored.
         /// </summary>
         string Name { get; set; }
 
