@@ -9,6 +9,9 @@ namespace MechBuilder
     /// 
     /// </summary>
     public interface IMeleeWeapon : IReachWeapon {
+        /// <summary>
+        /// 
+        /// </summary>
         List<IMeleeWeaponOption> Options { get; set; }
     }
 }

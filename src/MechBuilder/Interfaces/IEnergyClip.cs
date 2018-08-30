@@ -8,6 +8,9 @@ namespace MechBuilder {
     /// 
     /// </summary>
     public interface IEnergyClip : IAmmo {
+        /// <summary>
+        /// 
+        /// </summary>
         List<IEnergyClipOption> Options { get; set; }
     }
 }

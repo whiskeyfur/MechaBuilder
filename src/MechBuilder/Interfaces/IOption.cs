@@ -4,8 +4,17 @@ using System.Linq;
 using System.Text;
 
 namespace MechBuilder {
+    /// <summary>
+    /// 
+    /// </summary>
     public interface IOption {
+        /// <summary>
+        /// 
+        /// </summary>
         string Name { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         double Multiple { get; set; }
     }
 }

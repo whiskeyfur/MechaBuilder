@@ -110,8 +110,8 @@
     <Compile Include="Interfaces\IMecha.cs" />
     <Compile Include="Interfaces\IWeaponOption.cs" />
     <Compile Include="Interfaces\IProjectileWeaponOption.cs" />
-    <Compile Include="IOption.cs" />
-    <Compile Include="IShieldOption.cs" />
+    <Compile Include="Interfaces\IOption.cs" />
+    <Compile Include="Interfaces\IShieldOption.cs" />
     <Compile Include="Lookup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

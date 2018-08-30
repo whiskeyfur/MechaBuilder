@@ -8,6 +8,9 @@ namespace MechBuilder {
     /// 
     /// </summary>
     public interface IMagazine : IAmmo {
+        /// <summary>
+        /// 
+        /// </summary>
         List<IMagazineOption> Options { get; set; }
     }
 }

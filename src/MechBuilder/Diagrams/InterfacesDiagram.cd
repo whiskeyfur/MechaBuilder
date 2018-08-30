@@ -366,14 +366,14 @@
     <Position X="36.75" Y="15.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IOption.cs</FileName>
+      <FileName>Interfaces\IOption.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="MechBuilder.IShieldOption">
     <Position X="41.25" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IShieldOption.cs</FileName>
+      <FileName>Interfaces\IShieldOption.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Delegate Name="MechBuilder.SystemChangedDelegate" Collapsed="true">

@@ -50,27 +50,7 @@
             Where all the mecha that use this system get stored
             </summary>
         </member>
-        <member name="T:MechBuilder.ActiveShieldOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:MechBuilder.BeamWeaponOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:MechBuilder.EnergyMeleeWeaponOptions">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:MechBuilder.IActiveShield">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:MechBuilder.IActiveShield.Options">
             <summary>
             
             </summary>
@@ -120,22 +100,12 @@
             
             </summary>
         </member>
-        <member name="P:MechBuilder.IBeamWeapon.Options">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:MechBuilder.IEnergyClip">
             <summary>
             
             </summary>
         </member>
         <member name="T:MechBuilder.IEnergyMeleeWeapon">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:MechBuilder.IEnergyMeleeWeapon.Options">
             <summary>
             
             </summary>
@@ -155,27 +125,12 @@
             
             </summary>
         </member>
-        <member name="P:MechBuilder.IMagazine.Options">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:MechBuilder.IMeleeWeapon">
             <summary>
             
             </summary>
         </member>
-        <member name="P:MechBuilder.IMeleeWeapon.Options">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:MechBuilder.IMissile">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:MechBuilder.IMissile.Options">
             <summary>
             
             </summary>
@@ -190,12 +145,7 @@
             
             </summary>
         </member>
-        <member name="T:MechBuilder.IPassiveShield">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:MechBuilder.IPassiveShield.Options">
+        <member name="T:MechBuilder.IStandardShield">
             <summary>
             
             </summary>
@@ -211,11 +161,6 @@
             </summary>
         </member>
         <member name="P:MechBuilder.IProjectileWeapon.Magazines">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:MechBuilder.IProjectileWeapon.Options">
             <summary>
             
             </summary>
@@ -236,11 +181,6 @@
             </summary>
         </member>
         <member name="T:MechBuilder.IReactiveShield">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:MechBuilder.IReactiveShield.Options">
             <summary>
             
             </summary>
@@ -405,6 +345,11 @@
             
             </summary>
         </member>
+        <member name="T:MechBuilder.IShieldOption">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:MechBuilder.Lookup">
             <summary>
             Container to hold a lot of commonly used lookup values.
@@ -480,99 +425,9 @@
             
             </summary>
         </member>
-        <member name="T:MechBuilder.Lookup.ArmorType">
-            <summary>
-            The various armor types are defined here, along with the relevant damage coefficients.
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.ArmorType.Ablative">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.ArmorType.Standard">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.ArmorType.Alpha">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.ArmorType.Beta">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.ArmorType.Gamma">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:MechBuilder.Lookup.RadiationAbsorption">
-            <summary>
-            These are the types of radiation absorbing material armor modifiers.
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.RadiationAbsorption.None">
-            <summary>
-            No absorption, no cost modifier.
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.RadiationAbsorption.Second">
-            <summary>
-            1/2 absorption, 2.5x cost multiplier, 2/3rd SP penalty
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.RadiationAbsorption.Third">
-            <summary>
-            2/3rds absorption, 2.2x cost multiplier, 3/4th SP penalty
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.RadiationAbsorption.Fourth">
-            <summary>
-            1/4th absorption, 1.8x cost multiplier, 4/5th SP penalty
-            </summary>
-        </member>
-        <member name="F:MechBuilder.Lookup.RadiationAbsorption.Fifth">
-            <summary>
-            1/5th absorption, 1.5x cost multiplier, No SP penalty
-            </summary>
-        </member>
-        <member name="T:MechBuilder.MagazineOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:MechBuilder.MeleeWeaponOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:MechBuilder.MissileOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:MechBuilder.PassiveShieldOptions">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:MechBuilder.Program.Main">
             <summary>
             The main entry point for the application.
-            </summary>
-        </member>
-        <member name="T:MechBuilder.ProjectileWeaponOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:MechBuilder.ReactiveShieldOptions">
-            <summary>
-            
             </summary>
         </member>
         <member name="T:MechBuilder.SystemChangedDelegate">

@@ -25,7 +25,13 @@ namespace MechBuilder {
         /// 
         /// </summary>
         Classes Class { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         ICommandArmor CommandArmor { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         IHydraulics IHydraulics { get; set; }
     }
 }

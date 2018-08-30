@@ -12,6 +12,9 @@ namespace MechBuilder {
         /// 
         /// </summary>
         List<IMagazine> Magazines { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         List<IProjectileWeaponOption> Options { get; set; }
     }
 }

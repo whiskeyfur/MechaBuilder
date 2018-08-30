@@ -8,6 +8,9 @@ namespace MechBuilder {
     /// 
     /// </summary>
     public interface IEnergyMeleeWeapon : IReachWeapon {
+        /// <summary>
+        /// 
+        /// </summary>
         List<IEnergyMeleeWeaponOption> Options { get; set; }
     }
 }

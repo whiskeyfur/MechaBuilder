@@ -12,6 +12,9 @@ namespace MechBuilder {
         /// 
         /// </summary>
         List<IEnergyClip> Clips { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         List<IBeamWeaponOption> Options { get; set; }
     }
 }

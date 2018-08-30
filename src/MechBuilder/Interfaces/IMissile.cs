@@ -8,6 +8,9 @@ namespace MechBuilder {
     /// 
     /// </summary>
     public interface IMissile : IAmmo {
+        /// <summary>
+        /// 
+        /// </summary>
         List<IMissileOption> Options { get; set; }
     }
 }
