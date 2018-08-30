@@ -313,14 +313,14 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.ReactiveShieldOptions">
-    <Position X="38.75" Y="3" Width="1.5" />
+    <Position X="38.75" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\ReactiveShieldOptions.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="MechBuilder.PassiveShieldOptions">
-    <Position X="34.25" Y="3" Width="1.5" />
+    <Position X="34.25" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Options\PassiveShieldOptions.cs</FileName>
