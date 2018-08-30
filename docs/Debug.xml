@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MechBuilder</name>
+    </assembly>
+    <members>
+        <member name="T:MechBuilder.ICargo">
+            <summary>
+            Dedicated cargo space that does NOT enable use of the modules stored here.
+            However they're stored at a more efficient rate
+            </summary>
+        </member>
+        <member name="P:MechBuilder.ICargo.options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ICargoOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.ICargoOptions.Standard">
+            <summary>
+            Everything is just left on the floor. 
+            No change to stored systems.
+            </summary>
+        </member>
+        <member name="F:MechBuilder.ICargoOptions.Efficient">
+            <summary>
+            Systems are stored on shelves and overhead. 
+            1/2th of the space required for systems stored here
+            </summary>
+        </member>
+        <member name="F:MechBuilder.ICargoOptions.Compact">
+            <summary>
+            Shelves, overhead hooks, storage and retrieval system. 
+            1/3th of the space required for systems stored here
+            </summary>
+        </member>
+        <member name="F:MechBuilder.ICargoOptions.BulkStorage">
+            <summary>
+            Barely room to walk, conveyor belts and waldos to retrieve gear.
+            1/4th of the space required for systems stored here
+            </summary>
+        </member>
+        <member name="F:MechBuilder.ICargoOptions.PackedFull">
+            <summary>
+            To heck with a storage system, this is a bulk container. No retrieval possible (normally).
+            1/5th of the space required for systems stored here
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IHangar">
+            <summary>
+            Specialized storage for IMecha
+            </summary>
+        </member>
+        <member name="M:MechBuilder.IHangar.CanStore(MechBuilder.IMecha)">
+            <summary>
+            Is there enough space for the proposed mecha?
+            </summary>
+            <param name="mecha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MechBuilder.IHangar.Store(MechBuilder.IMecha)">
+            <summary>
+            Set the mecha's location to 'here' and put this mecha in the systems inventory as a subsystem
+            </summary>
+            <param name="mecha"></param>
+        </member>
+        <member name="T:MechBuilder.ILauncher">
+            <summary>
+            The sole advantage of this sytem is it launches mecha at a high speed, saving on fuel for the mecha.
+            Need one system per mecha that can be launched at a time
+            The size of this system determines how big a mecha can be stored or retrieved at any time.
+            </summary>
+        </member>
+        <member name="P:MechBuilder.ILauncher.Hangar">
+            <summary>
+            Where all the mecha that use this system get stored
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ActiveShieldOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ArmorOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.BeamWeaponOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.EnergyMeleeWeaponOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IActiveShield">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IActiveShield.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IAmmo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IAmmo.Count">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IAmmo.Expended">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IArmor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IArmor.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IArmServo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IBeamWeapon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IBeamWeapon.Clips">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IBeamWeapon.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IEnergyClip">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IEnergyMeleeWeapon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IEnergyMeleeWeapon.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IHeadServo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ILegServo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IMagazine">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IMagazine.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IMeleeWeapon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IMeleeWeapon.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IMissile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IMissile.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IMissileSystem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IMissileSystem.Missiles">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IPassiveShield">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IPassiveShield.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IPodServo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IProjectileWeapon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IProjectileWeapon.Magazines">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IProjectileWeapon.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IRangedWeapon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IRangedWeapon.Range">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IReachWeapon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IReactiveShield">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IReactiveShield.Options">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IServo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IServo.Armor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IServo.Kills">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IServo.Spaces">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IServo.Class">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IShield">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IShield.SP">
+            <summary>
+            Scale of 1 to 20
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IStorage">
+            <summary>
+            Unspecialized storage, can hold anything, but no efficiency for doing so.
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ISystem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.ISystem.Systems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.ISystem.Cost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.ISystem.Weight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ISystemCollection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MechBuilder.ISystemCollection.GetTotalCost">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MechBuilder.ISystemCollection.GetTotalWeight">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MechBuilder.ITailServo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ITorsoServo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IWeapon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IWeapon.Damage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IWeapon.Accuracy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IWingServo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.MainForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MechBuilder.MainForm.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MechBuilder.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MechBuilder.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MechBuilder.IMecha">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IMecha.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MechBuilder.IMecha.Serial">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.Lookup">
+            <summary>
+            Container to hold a lot of commonly used lookup values.
+            </summary>
+        </member>
+        <member name="M:MechBuilder.Lookup.#ctor">
+            <summary>
+             No reason to have this publically accessible. Lookup doesn't do anything.
+            </summary>
+        </member>
+        <member name="T:MechBuilder.Lookup.Classes">
+            <summary>
+            These are the classes of servo, and other systems, higher number is more expensive/stronger.
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.None">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Superlight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Lightweight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Striker">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Medium_Striker">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Heavy_Striker">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Mediumweight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Light_Heavy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Medium_Heavy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Armored_Heavy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Super_Heavy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.Classes.Mega_Heavy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.Lookup.ArmorType">
+            <summary>
+            The various armor types are defined here, along with the relevant damage coefficients.
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.ArmorType.Ablative">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.ArmorType.Standard">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.ArmorType.Alpha">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.ArmorType.Beta">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.ArmorType.Gamma">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.Lookup.RadiationAbsorption">
+            <summary>
+            These are the types of radiation absorbing material armor modifiers.
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.RadiationAbsorption.None">
+            <summary>
+            No absorption, no cost modifier.
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.RadiationAbsorption.Second">
+            <summary>
+            1/2 absorption, 2.5x cost multiplier, 2/3rd SP penalty
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.RadiationAbsorption.Third">
+            <summary>
+            2/3rds absorption, 2.2x cost multiplier, 3/4th SP penalty
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.RadiationAbsorption.Fourth">
+            <summary>
+            1/4th absorption, 1.8x cost multiplier, 4/5th SP penalty
+            </summary>
+        </member>
+        <member name="F:MechBuilder.Lookup.RadiationAbsorption.Fifth">
+            <summary>
+            1/5th absorption, 1.5x cost multiplier, No SP penalty
+            </summary>
+        </member>
+        <member name="T:MechBuilder.MagazineOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.MeleeWeaponOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.MissileOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.PassiveShieldOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MechBuilder.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ProjectileWeaponOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.ReactiveShieldOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MechBuilder.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MechBuilder.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MechBuilder.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:MZCore.Forms.Servobuilder">
+            <summary>
+            Master form for all interactions with the program
+            </summary>
+        </member>
+        <member name="M:MZCore.Forms.Servobuilder.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MZCore.Forms.Servobuilder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MZCore.Forms.Servobuilder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MZCore.Forms.Servobuilder.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

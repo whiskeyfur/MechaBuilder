@@ -9,6 +9,9 @@ namespace MechBuilder {
     /// </summary>
     public interface ISystem
     {
+        /// <summary>
+        /// 
+        /// </summary>
         event SystemChangedDelegate Changed;
 
         /// <summary>
