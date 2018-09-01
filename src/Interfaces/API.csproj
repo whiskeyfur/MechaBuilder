@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A00D5BE6-7708-41DA-8649-EDD1FE360877}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MechBuilder.API</RootNamespace>
+    <AssemblyName>API</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Events\SystemChangedDelegate.cs" />
+    <Compile Include="Interfaces\IActiveShield.cs" />
+    <Compile Include="Interfaces\IAmmo.cs" />
+    <Compile Include="Interfaces\IAmmoOption.cs" />
+    <Compile Include="Interfaces\IArmor.cs" />
+    <Compile Include="Interfaces\IArmServo.cs" />
+    <Compile Include="Interfaces\IBeamWeapon.cs" />
+    <Compile Include="Interfaces\IBeamWeaponOption.cs" />
+    <Compile Include="Interfaces\ICargo.cs" />
+    <Compile Include="Interfaces\ICommandArmor.cs" />
+    <Compile Include="Interfaces\IEnergyClip.cs" />
+    <Compile Include="Interfaces\IEnergyClipOption.cs" />
+    <Compile Include="Interfaces\IEnergyMeleeWeapon.cs" />
+    <Compile Include="Interfaces\IEnergyMeleeWeaponOption.cs" />
+    <Compile Include="Interfaces\IEnergyPool.cs" />
+    <Compile Include="Interfaces\IHangar.cs" />
+    <Compile Include="Interfaces\IHardpoint.cs" />
+    <Compile Include="Interfaces\IHeadServo.cs" />
+    <Compile Include="Interfaces\IHydraulics.cs" />
+    <Compile Include="Interfaces\ILauncher.cs" />
+    <Compile Include="Interfaces\ILegServo.cs" />
+    <Compile Include="Interfaces\IMagazine.cs" />
+    <Compile Include="Interfaces\IMagazineOption.cs" />
+    <Compile Include="Interfaces\IMecha.cs" />
+    <Compile Include="Interfaces\IMeleeWeapon.cs" />
+    <Compile Include="Interfaces\IMeleeWeaponOption.cs" />
+    <Compile Include="Interfaces\IMissile.cs" />
+    <Compile Include="Interfaces\IMissileOption.cs" />
+    <Compile Include="Interfaces\IMissileSystem.cs" />
+    <Compile Include="Interfaces\IOption.cs" />
+    <Compile Include="Interfaces\IPodServo.cs" />
+    <Compile Include="Interfaces\IProjectileWeapon.cs" />
+    <Compile Include="Interfaces\IProjectileWeaponOption.cs" />
+    <Compile Include="Interfaces\IRangedWeapon.cs" />
+    <Compile Include="Interfaces\IReachWeapon.cs" />
+    <Compile Include="Interfaces\IReactiveShield.cs" />
+    <Compile Include="Interfaces\IServo.cs" />
+    <Compile Include="Interfaces\IShield.cs" />
+    <Compile Include="Interfaces\IShieldOption.cs" />
+    <Compile Include="Interfaces\IStandardShield.cs" />
+    <Compile Include="Interfaces\IStorage.cs" />
+    <Compile Include="Interfaces\ISystem.cs" />
+    <Compile Include="Interfaces\ISystemCollection.cs" />
+    <Compile Include="Interfaces\ITailServo.cs" />
+    <Compile Include="Interfaces\ITorsoServo.cs" />
+    <Compile Include="Interfaces\IWeapon.cs" />
+    <Compile Include="Interfaces\IWeaponOption.cs" />
+    <Compile Include="Interfaces\IWingServo.cs" />
+    <Compile Include="Lookup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InterfacesDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

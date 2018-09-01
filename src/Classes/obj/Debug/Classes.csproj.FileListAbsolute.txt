@@ -1,0 +1,11 @@
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\bin\Debug\Classes.dll
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\bin\Debug\Classes.pdb
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\obj\Debug\Classes.csproj.CopyComplete
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\obj\Debug\Classes.dll
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\obj\Debug\Classes.pdb
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\bin\Debug\API.dll
+M:\Users\Whiskey\Documents\MechaBuilder\src\Classes\bin\Debug\API.pdb
+M:\Users\Whiskey\Documents\MechaBuilder\bin\Debug\Classes.dll
+M:\Users\Whiskey\Documents\MechaBuilder\bin\Debug\Classes.pdb

@@ -5,3 +5,4 @@
 /src/.vs/MechBuilder/v15/Server/sqlite3
 /src/MechBuilder/obj/Debug
 bin/
+src/Interfaces/obj/

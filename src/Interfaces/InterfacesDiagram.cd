@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="MechBuilder.API.IServo">
+    <Position X="18.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAABACAIAAAAAAAAgAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IServo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IWeapon">
+    <Position X="33.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IArmor">
+    <Position X="65.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IArmor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IAmmo">
+    <Position X="59" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAmmo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.ISystem">
+    <Position X="41" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAABAAACAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Interfaces\ISystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Contains" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="MechBuilder.API.IRangedWeapon">
+    <Position X="32" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRangedWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IMeleeWeapon">
+    <Position X="38.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\IMeleeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IMecha">
+    <Position X="63.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMecha.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IMissileSystem">
+    <Position X="29.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMissileSystem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IProjectileWeapon">
+    <Position X="32" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\IProjectileWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IBeamWeapon">
+    <Position X="34.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\IBeamWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IEnergyMeleeWeapon">
+    <Position X="36.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\IEnergyMeleeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IMissile">
+    <Position X="56.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\IMissile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IEnergyClip">
+    <Position X="61.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\IEnergyClip.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IMagazine">
+    <Position X="59" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\IMagazine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IShield">
+    <Position X="52.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IShield.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IStorage">
+    <Position X="44.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IStorage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.ISystemCollection">
+    <Position X="38" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISystemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IHangar">
+    <Position X="45.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IHangar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.ILauncher">
+    <Position X="43.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILauncher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Hangar" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="MechBuilder.API.ICargo">
+    <Position X="41" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICargo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IEnergyPool">
+    <Position X="27.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEnergyPool.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IOption" Collapsed="true">
+    <Position X="17.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IActiveShield">
+    <Position X="52.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IActiveShield.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IAmmoOption" Collapsed="true">
+    <Position X="12" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAmmoOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IArmServo" Collapsed="true">
+    <Position X="20.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IArmServo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IBeamWeaponOption" Collapsed="true">
+    <Position X="21" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBeamWeaponOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.ICommandArmor">
+    <Position X="70.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICommandArmor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IEnergyClipOption" Collapsed="true">
+    <Position X="12" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEnergyClipOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IEnergyMeleeWeaponOption" Collapsed="true">
+    <Position X="25.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEnergyMeleeWeaponOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IHardpoint">
+    <Position X="47.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHardpoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IHeadServo" Collapsed="true">
+    <Position X="18.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHeadServo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IHydraulics">
+    <Position X="68" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHydraulics.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.ILegServo" Collapsed="true">
+    <Position X="23" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILegServo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IMagazineOption" Collapsed="true">
+    <Position X="9.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMagazineOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IMeleeWeaponOption" Collapsed="true">
+    <Position X="23.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMeleeWeaponOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IMissileOption" Collapsed="true">
+    <Position X="14.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMissileOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IPodServo" Collapsed="true">
+    <Position X="14" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPodServo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IProjectileWeaponOption" Collapsed="true">
+    <Position X="18.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IProjectileWeaponOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IReachWeapon" Collapsed="true">
+    <Position X="37.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IReachWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IReactiveShield">
+    <Position X="50" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IReactiveShield.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IShieldOption" Collapsed="true">
+    <Position X="16.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IShieldOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IStandardShield">
+    <Position X="54.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IStandardShield.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.ITailServo" Collapsed="true">
+    <Position X="25.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITailServo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.ITorsoServo" Collapsed="true">
+    <Position X="16.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITorsoServo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IWeaponOption" Collapsed="true">
+    <Position X="22" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IWeaponOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MechBuilder.API.IWingServo" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IWingServo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

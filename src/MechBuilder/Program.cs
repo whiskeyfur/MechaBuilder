@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection;
 
 namespace MechBuilder {
     static class Program {
@@ -9,6 +10,9 @@ namespace MechBuilder {
         /// </summary>
         [STAThread]
         static void Main() {
+            foreach (Type t in Assembly.LoadFile(Environment.CurrentDirectory + "\\Classes.dll").GetTypes()) {
+                Console.WriteLine(t.Name);
+            }
             // Start the form
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

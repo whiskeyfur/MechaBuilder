@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MechBuilder", "MechBuilder\MechBuilder.csproj", "{7FDF0538-513A-4CF4-BB74-284B3A4FB962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "Interfaces\API.csproj", "{A00D5BE6-7708-41DA-8649-EDD1FE360877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{92F1BF27-328D-4E14-A5AB-C5DA6D5B8E3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7FDF0538-513A-4CF4-BB74-284B3A4FB962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FDF0538-513A-4CF4-BB74-284B3A4FB962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FDF0538-513A-4CF4-BB74-284B3A4FB962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00D5BE6-7708-41DA-8649-EDD1FE360877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00D5BE6-7708-41DA-8649-EDD1FE360877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00D5BE6-7708-41DA-8649-EDD1FE360877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00D5BE6-7708-41DA-8649-EDD1FE360877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F1BF27-328D-4E14-A5AB-C5DA6D5B8E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F1BF27-328D-4E14-A5AB-C5DA6D5B8E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F1BF27-328D-4E14-A5AB-C5DA6D5B8E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F1BF27-328D-4E14-A5AB-C5DA6D5B8E3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

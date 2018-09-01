@@ -53,48 +53,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IAmmoOption.cs" />
-    <Compile Include="Interfaces\IBeamWeaponOption.cs" />
-    <Compile Include="Interfaces\ICommandArmor.cs" />
-    <Compile Include="Interfaces\IEnergyClipOption.cs" />
-    <Compile Include="Interfaces\IEnergyMeleeWeaponOption.cs" />
-    <Compile Include="Interfaces\IEnergyPool.cs" />
-    <Compile Include="Interfaces\IHardpoint.cs" />
-    <Compile Include="Interfaces\IHydraulics.cs" />
-    <Compile Include="Interfaces\IMagazineOption.cs" />
-    <Compile Include="Interfaces\IMeleeWeaponOption.cs" />
-    <Compile Include="Interfaces\IMissileOption.cs" />
-    <Compile Include="Interfaces\ICargo.cs" />
-    <Compile Include="Interfaces\IHangar.cs" />
-    <Compile Include="Interfaces\ILauncher.cs" />
-    <Compile Include="Interfaces\IActiveShield.cs" />
-    <Compile Include="Interfaces\IAmmo.cs" />
-    <Compile Include="Interfaces\IArmor.cs" />
-    <Compile Include="Interfaces\IArmServo.cs" />
-    <Compile Include="Interfaces\IBeamWeapon.cs" />
-    <Compile Include="Interfaces\IEnergyClip.cs" />
-    <Compile Include="Interfaces\IEnergyMeleeWeapon.cs" />
-    <Compile Include="Interfaces\IHeadServo.cs" />
-    <Compile Include="Interfaces\ILegServo.cs" />
-    <Compile Include="Interfaces\IMagazine.cs" />
-    <Compile Include="Interfaces\IMeleeWeapon.cs" />
-    <Compile Include="Interfaces\IMissile.cs" />
-    <Compile Include="Interfaces\IMissileSystem.cs" />
-    <Compile Include="Interfaces\IStandardShield.cs" />
-    <Compile Include="Interfaces\IPodServo.cs" />
-    <Compile Include="Interfaces\IProjectileWeapon.cs" />
-    <Compile Include="Interfaces\IRangedWeapon.cs" />
-    <Compile Include="Interfaces\IReachWeapon.cs" />
-    <Compile Include="Interfaces\IReactiveShield.cs" />
-    <Compile Include="Interfaces\IServo.cs" />
-    <Compile Include="Interfaces\IShield.cs" />
-    <Compile Include="Interfaces\IStorage.cs" />
-    <Compile Include="Interfaces\ISystem.cs" />
-    <Compile Include="Interfaces\ISystemCollection.cs" />
-    <Compile Include="Interfaces\ITailServo.cs" />
-    <Compile Include="Interfaces\ITorsoServo.cs" />
-    <Compile Include="Interfaces\IWeapon.cs" />
-    <Compile Include="Interfaces\IWingServo.cs" />
     <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,15 +65,8 @@
     <Compile Include="Forms\Servobuilder.Designer.cs">
       <DependentUpon>Servobuilder.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interfaces\IMecha.cs" />
-    <Compile Include="Interfaces\IWeaponOption.cs" />
-    <Compile Include="Interfaces\IProjectileWeaponOption.cs" />
-    <Compile Include="Interfaces\IOption.cs" />
-    <Compile Include="Interfaces\IShieldOption.cs" />
-    <Compile Include="Lookup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Events\SystemChangedDelegate.cs" />
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,7 +83,6 @@
     <EmbeddedResource Include="Forms\Servobuilder.resx">
       <DependentUpon>Servobuilder.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Diagrams\InterfacesDiagram.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -147,6 +97,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Classes\Classes.csproj">
+      <Project>{92f1bf27-328d-4e14-a5ab-c5da6d5b8e3d}</Project>
+      <Name>Classes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
